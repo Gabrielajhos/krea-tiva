@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.fondo{
+    background-image: url(../img/imagen1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 52rem;
+    margin: 0;
+}
+
+.hero{
+    background-image: url(../img/imagen2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 31rem;
+
+}
+
+
+@media (max-width: 600px) {
+.hero{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+    
+}
+
+.nosotros{
+    
+    background-image: url(../img/imagen3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    
+}  
+
+.servicios{
+margin-top: -1.5rem;
+}
+
+.titulo{
+
+    margin-top: -5rem;
+}
+
+.galeria{
+    background-image: url(../img/12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    
+}
