@@ -59,3 +59,33 @@ margin-top: -1.5rem;
     height: 45rem;
     
 }
+
+@media (max-width: 600px) {
+    .galeria{
+       height: 100%;
+    }
+        
+    }
+
+.display-galeria{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 600px) {
+    .display-galeria{
+       display: block;
+    }
+        
+    }
+    
+.galeria-img{
+    margin: 2rem;
+  display: flex;
+    width: 80%;
+ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.galeria-img:hover{
+    width: 85%;
+}
