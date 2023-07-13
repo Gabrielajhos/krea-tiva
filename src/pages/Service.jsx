@@ -10,7 +10,7 @@ const Service = () => {
     <div className='block m-auto'>
 
 
-<h1 className='text-center mt-20 justify-center m-auto md:mt-6 w-4/6 text-violet-900 md:text-4xl text-3xl font-bold font-sans uppercase'>Descubre todos los servicios que ofrecemos para ti</h1>
+<h1 className='text-center mt-28 justify-center m-auto md:mt-6  w-4/6 text-violet-900 md:text-4xl text-3xl font-bold font-sans uppercase'>Descubre todos los servicios que ofrecemos para ti</h1>
    
    
     <div className='md:flex p-20 '>

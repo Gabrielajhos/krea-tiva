@@ -18,7 +18,7 @@ const Header = () => {
       <a className='hover:text-orange-500 block hover:text-3xl' href='#nosotros'>Nosotros</a>
       <a className='hover:text-orange-500 block hover:text-3xl'  href='#servicios'>Servicios</a>
       <a className='hover:text-orange-500 block hover:text-3xl'  href='#contactos'>Contacto</a>
-      <a className='hover:text-orange-500 block hover:text-3xl'  href='#galeria'>Portafolio</a>
+      <a className='hover:text-orange-500 block hover:text-3xl'  href='#galeria'>Clientes</a>
       </div>
     </nav>
 
@@ -34,7 +34,11 @@ const Header = () => {
 
     </div>
 
-  
+    <section>
+        <a href="https://wa.me/+5491126383489?text=Hola! quisiera información sobre un producto de su pagina web. " class="whatsapp-button" target="_blank">
+                <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="whatsapp"/>
+              </a>
+        </section>  
 
    </>
 

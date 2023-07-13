@@ -123,3 +123,10 @@ margin-top: -1.5rem;
         
     }
 
+ .whatsapp-button{
+
+    position: fixed;
+  
+    bottom: 50px;
+    right: 15px;
+    }
