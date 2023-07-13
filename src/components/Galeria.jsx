@@ -36,6 +36,9 @@ const Galeria = () => {
 
 <img src={imagen} className="galeria-img"></img>
 
+
+
+
     
 
       </RViewerTrigger>

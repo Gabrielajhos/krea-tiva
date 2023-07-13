@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 
 .fondo{
@@ -63,6 +68,8 @@ margin-top: -1.5rem;
 @media (max-width: 600px) {
     .galeria{
        height: 100%;
+       align-items: center;
+
     }
         
     }
@@ -74,7 +81,17 @@ margin-top: -1.5rem;
 
 @media (max-width: 600px) {
     .display-galeria{
-       display: block;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .galeria-img{
+       
+        margin: auto;
+
+      display: flex;
+        width: 100%;
+     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     }
         
     }
@@ -89,3 +106,18 @@ margin-top: -1.5rem;
 .galeria-img:hover{
     width: 85%;
 }
+
+
+
+@media (max-width: 600px) {
+    .responsive-form{
+ width: 100%;
+ margin: 0.8rem auto;
+ 
+    }
+
+    form{
+        margin-left: 1.5rem;
+    }
+        
+    }
