@@ -7,7 +7,7 @@ import Computadora from '../../img/computadora.png'
 
 const Hero = () => {
   return (
-    <div className='hero md:flex w-5/4 grid-cols-2 md:w-full md:space-x-10 items-start  md:ml-12'>
+    <div className='hero md:flex w-5/4 grid-cols-2 md:w-full  md:space-x-10 items-start  md:ml-24'>
 
       <div className='shadow-2xl md:w-60 p-6 m-4 w-3/4 bg-gray-100 rounded-md'>
       <h3 className='text-violet-900 text-2xl font-semibold text-center'>Soluciones</h3>

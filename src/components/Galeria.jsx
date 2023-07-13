@@ -23,7 +23,7 @@ const Galeria = () => {
   return (
     <div className='galeria' id='galeria'>
 
-    <h2 className='uppercase text-5xl text-orange-600 text-center font-semibold'>Portafolio</h2>
+    <h2 className='uppercase pt-10 text-5xl text-orange-600 text-center font-semibold'>Portafolio</h2>
 <div className='md:block flex items-center mt-10 md:mt-2'>
    
    <RViewer imageUrls={imagenes}>
