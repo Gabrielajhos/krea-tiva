@@ -30,8 +30,12 @@ const Header = () => {
 
     <a href='#contactos' className='bg-orange-600 ml-6 shadow-2xl mt-16 p-4 text-2xl hover:p-6 text-white font-bold'>Contatanos</a>
 
+
+
     </div>
-   
+
+  
+
    </>
 
    
